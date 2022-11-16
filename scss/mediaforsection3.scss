@@ -1,0 +1,121 @@
+@media(max-width: 1300px){
+    .section-3{
+        overflow: hidden;
+        height: 750px;
+        min-width: 50%;
+        .frame{
+            flex-direction: row;
+            .btn{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-right: 12%;
+                margin-bottom: 5%;
+                margin-top: 1.5%;
+            }
+
+            .description{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 7%;
+
+                h1{
+                    padding-right: 1em;
+                    padding-left: 0.5em;
+                }
+
+                p{
+                    padding-left: 1em;
+                }
+            }
+
+            .column{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 28em;
+                margin-top: 2em;
+            }
+
+            .veg{
+                margin-top: 3em;
+            }
+
+            .column, .veg{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .leaf, .feet, .veg{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+}
+
+@media(min-width: 1301px){
+    .section-3{
+        width: 100%;
+        height: 600px;
+        
+        .frame{
+            flex-direction: row;
+            .btn{
+                flex-direction: column;
+                display: flex;
+                float: left;
+                justify-content: center;
+                padding-top: 6em;
+                padding-bottom: 12em;
+            }
+        
+            .description{
+                padding-top: 150px;
+                padding-left: 150px;
+                float: left;
+                justify-content: center;
+                flex-direction: column;
+                display: flex;
+        
+                h1{
+                    max-width: 550px;
+                    padding-bottom: 1em;
+                }
+                
+                p{
+                    max-width: 550px;
+                }
+            }
+
+            .images{
+                display: flex;
+                margin-right: -15em;
+                float: right;
+                margin-top: 120px;
+                
+                .leaf{
+                    height: 168px;
+        
+                    a{
+                        margin-bottom: 500px;
+                    }
+                }
+        
+                .veg{
+                    width: 168px;
+                    height: 168px;
+                    margin-left: -170px;
+                }
+             }
+        
+             .column, .feet, .veg{
+                flex-direction:column;
+             }
+        }
+    }
+}

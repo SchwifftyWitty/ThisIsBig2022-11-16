@@ -1,0 +1,52 @@
+.section-1{
+    width: 100%;
+    min-height: 700px;
+    background: url(../images/skyscraper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img{
+        width: 247px;
+        height: 108px;
+    }
+
+    h1{
+        color: #FFFFFF;
+        max-width: 500px;
+    }
+
+    .section-text1{
+        padding-right: 10%;
+        width: 800px;
+        margin-top: 100px;
+
+        h1{
+            font-size: xx-large;
+            margin-top: 50px;
+            margin-bottom: 60px;
+        }
+
+        h3{
+            font: normal normal 600 16px/23px Montserrat;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+
+        button{
+            margin-top: 50px;
+            width: 135px;
+            height: 42px;
+            background: transparent;
+            color: #FFFFFF;
+            font-weight: bold;
+            border: 2px solid white;
+            margin-bottom: 1em;
+        }
+
+        button:hover{
+            background: white;
+            color: black;
+        }
+    }
+}

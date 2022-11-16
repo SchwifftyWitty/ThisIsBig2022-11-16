@@ -1,0 +1,52 @@
+@media(max-width: 1300px){
+    .section-2{
+
+        h3{
+            margin-top: 1em;
+        }
+
+        p{
+            margin-top: 2em;
+        }
+
+        .social{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .media{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+        }
+    }
+}
+
+@media(min-width: 1301px){
+    .section-2{
+        height: 170px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+            .social{
+                float: right;
+                justify-content: center;
+            }
+        
+    
+        .media{
+            display: flex;
+            float: right;
+            gap: 100px;
+            justify-content: center;
+        }
+    }
+}

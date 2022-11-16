@@ -1,0 +1,11 @@
+@media(max-width: 768px){
+    .footer{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        
+        img{
+            display: none
+        }
+    }
+}
